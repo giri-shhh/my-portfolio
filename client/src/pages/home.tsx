@@ -12,7 +12,7 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     // Set page title
-    document.title = "Alex Chen | Software Developer Portfolio";
+    document.title = "Girisha P | Software Developer Portfolio";
   }, []);
 
   return (

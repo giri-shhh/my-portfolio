@@ -1,115 +1,162 @@
 export const portfolioData = {
-  name: "Alex Chen",
+  name: "Girisha P",
   title: "Software Developer",
   yearsOfExperience: 7,
   specializations: ["Java", "Spring Boot", "React"],
-  aboutMe: "My journey began with backend development, gradually expanding to frontend technologies and DevOps practices. I'm passionate about clean code, performance optimization, and creating intuitive user experiences.",
-  completedProjects: 50,
-  technologies: 20,
-  clients: 10,
-  keySkills: ["Java", "Spring Boot", "React", "TypeScript", "Python", "MongoDB"],
+  aboutMe:
+    "My journey began with backend development, gradually expanding to frontend technologies and DevOps practices. I'm passionate about clean code, performance optimization, and creating intuitive user experiences.",
+  completedProjects: 10,
+  technologies: 10,
+  clients: 3,
+  keySkills: [
+    "Java",
+    "Spring Boot",
+    "React",
+    "TypeScript",
+    "Python",
+    "MongoDB",
+  ],
   skills: {
     languages: [
       { name: "Java & Spring Boot", level: "Advanced", percentage: 95 },
       { name: "JavaScript & TypeScript", level: "Advanced", percentage: 90 },
       { name: "React & Frontend", level: "Advanced", percentage: 85 },
       { name: "Python", level: "Intermediate", percentage: 75 },
-      { name: "Dart & Flutter", level: "Intermediate", percentage: 70 }
+      { name: "Dart & Flutter", level: "Intermediate", percentage: 70 },
     ],
     backend: [
       { name: "Spring Ecosystem", level: "Advanced", percentage: 95 },
       { name: "Databases (MongoDB, MySQL)", level: "Advanced", percentage: 85 },
-      { name: "DevOps (Docker, Jenkins)", level: "Intermediate", percentage: 80 },
-      { name: "Message Brokers (Kafka, ActiveMQ)", level: "Intermediate", percentage: 75 },
-      { name: "Authentication (OAuth2, Kerberos)", level: "Intermediate", percentage: 70 }
-    ]
+      {
+        name: "DevOps (Docker, Jenkins)",
+        level: "Intermediate",
+        percentage: 80,
+      },
+      {
+        name: "Message Brokers (Kafka, ActiveMQ)",
+        level: "Intermediate",
+        percentage: 75,
+      },
+      {
+        name: "Authentication (OAuth2, Kerberos)",
+        level: "Intermediate",
+        percentage: 70,
+      },
+    ],
   },
   techCloud: [
-    "Java", "Spring Boot", "Spring Security", "Spring Reactive", "Spring Cloud", 
-    "Spring Batch", "Spring Data", "JavaScript", "TypeScript", "React", "HTML5", 
-    "CSS3", "ES6", "Python", "Dart", "Flutter", "MongoDB", "MySQL", "Apache Kafka", 
-    "ActiveMQ", "Docker", "Jenkins", "GitHub Actions", "Kerberos", "OAuth2", "JUnit", 
-    "Mockito", "SonarQube", "Playwright", "Git", "Gradle", "Maven", "Swagger", "OpenAPI", "YAML"
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "Spring Reactive",
+    "Spring Cloud",
+    "Spring Batch",
+    "Spring Data",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "HTML5",
+    "CSS3",
+    "ES6",
+    "Python",
+    "Dart",
+    "Flutter",
+    "MongoDB",
+    "MySQL",
+    "Apache Kafka",
+    "ActiveMQ",
+    "Docker",
+    "Jenkins",
+    "GitHub Actions",
+    "Kerberos",
+    "OAuth2",
+    "JUnit",
+    "Mockito",
+    "SonarQube",
+    "Playwright",
+    "Git",
+    "Gradle",
+    "Maven",
+    "Swagger",
+    "OpenAPI",
+    "YAML",
   ],
   projects: [
     {
-      title: "Enterprise Dashboard",
-      description: "A comprehensive dashboard for enterprise resource management with real-time analytics and reporting.",
-      image: "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZGFzaGJvYXJkfHx8fHx8MTcwOTczNTg1NA&ixlib=rb-4.0.3&q=80&w=600",
-      category: "Full-Stack",
+      title: "Spring Boot Microservices Starter",
+      description:
+        "A drag and drop based starter kit for building microservices with Spring Boot, including pre-configured modules for authentication and messaging.",
+      image:
+        "https://private-user-images.githubusercontent.com/17086380/433262018-fd8467ad-e8c5-4aeb-b673-8da2ff4f77e1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ2MTU2NjEsIm5iZiI6MTc0NDYxNTM2MSwicGF0aCI6Ii8xNzA4NjM4MC80MzMyNjIwMTgtZmQ4NDY3YWQtZThjNS00YWViLWI2NzMtOGRhMmZmNGY3N2UxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDE0VDA3MjI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4ZGMwOTliMjI2ZDZjMDFhMzY2Zjk4ZjA0ZGU3N2Y3OWI2ZjliMjQ1NmRkZmQyY2VmMjcwYzFhNGRkMzMxOTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QgfC9gNLQ7_No8UdymEAZ5PrxtIM_hGBODcT0QBcgHI",
+      category: "Frontend",
       technologies: [
-        { name: "Spring Boot", color: "primary" },
-        { name: "React", color: "blue" },
-        { name: "MongoDB", color: "green" }
+        { name: "React", color: "purple" },
+        { name: "Vite", color: "primary" },
+        { name: "Tailwind", color: "yellow" },
       ],
-      demoUrl: "https://example.com/demo",
-      githubUrl: "https://github.com/example/project",
-      detailsUrl: "#"
+      demoUrl: "https://main.d2hd8x5vp5tt1m.amplifyapp.com",
+      githubUrl: "https://github.com/giri-shhh/SpringServiceStarter",
+      detailsUrl: "https://github.com/giri-shhh/SpringServiceStarter",
     },
     {
-      title: "Mobile Banking App",
-      description: "A secure, feature-rich mobile banking application with biometric authentication and transaction tracking.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YXBwLG1vYmlsZXx8fHx8fDE3MDk3MzU4ODg&ixlib=rb-4.0.3&q=80&w=600",
-      category: "Mobile",
-      technologies: [
-        { name: "Flutter", color: "purple" },
-        { name: "Spring Boot", color: "primary" },
-        { name: "OAuth2", color: "yellow" }
-      ],
-      demoUrl: "https://example.com/demo",
-      githubUrl: "https://github.com/example/project",
-      detailsUrl: "#"
-    },
-    {
-      title: "E-Commerce Platform",
-      description: "A scalable e-commerce solution with real-time inventory management and payment processing integration.",
-      image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZWNvbW1lcmNlfHx8fHx8MTcwOTczNTkxNA&ixlib=rb-4.0.3&q=80&w=600",
+      title: "Hotel Management System",
+      description:
+        "A comprehensive hotel management system with features for booking, billing, and customer management.",
+      image: "assets/hotelmanagement.png",
       category: "Full-Stack",
       technologies: [
         { name: "React", color: "blue" },
         { name: "Spring Boot", color: "primary" },
-        { name: "Kafka", color: "red" }
+        { name: "OAuth2", color: "red" },
       ],
       demoUrl: "https://example.com/demo",
       githubUrl: "https://github.com/example/project",
-      detailsUrl: "#"
-    }
+      detailsUrl: "#",
+    },
+    {
+      title: "Spring Webflux Application",
+      description:
+        "A reactive web application built with Spring Webflux, showcasing real-time data processing and event-driven architecture.",
+      image:
+        "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZWNvbW1lcmNlfHx8fHx8MTcwOTczNTkxNA&ixlib=rb-4.0.3&q=80&w=600",
+      category: "Full-Stack",
+      technologies: [
+        { name: "Spring Boot", color: "blue" },
+        { name: "Spring Webflux", color: "primary" },
+      ],
+      demoUrl: "#",
+      githubUrl: "https://github.com/giri-shhh/Spring-Webflux",
+      detailsUrl: "https://github.com/giri-shhh/Spring-Webflux",
+    },
   ],
   experience: [
     {
       role: "Senior Software Engineer",
-      company: "Tech Innovations Inc.",
-      period: "2020 - Present",
-      description: "Led the development of a cloud-based analytics platform. Implemented microservices architecture using Spring Boot and Kafka for real-time data processing.",
+      company: "Wissen Technology Ptv Ltd.",
+      period: "2020 - 2024",
+      description:
+        "Development: Designed and developed micro-services with latest modern tools and framework with a focus on system design, high availability, high tolerance with security architecture. \n\nMentoring: Mentored junior developers on best practices, code reviews, and design patterns. \n\nCollaboration: Worked closely with cross-functional teams to gather requirements and deliver high-quality software solutions.",
       color: "primary",
-      icon: "work"
-    },
-    {
-      role: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2017 - 2020",
-      description: "Developed and maintained enterprise web applications using React and Spring Boot. Integrated OAuth2 authentication and implemented RESTful APIs.",
-      color: "accent",
-      icon: "coding"
+      icon: "work",
     },
     {
       role: "Java Developer",
-      company: "TechStart Solutions",
-      period: "2016 - 2017",
-      description: "Worked on backend services using Java and Spring framework. Implemented database solutions with MySQL and introduced testing frameworks.",
+      company: "Capgemini Pvt Ltd.",
+      period: "2017 - 2020",
+      description:
+        "Developed and maintained distributed systems using Java, Spring Boot and Spring Batch. Developed a Spring Batch app for processing billions of transactions with database partitioning, queues and multiple processes. Designed scalable APIs and implemented RESTful services to support seamless integration with third-party platforms.",
       color: "secondary",
-      icon: "java"
-    }
+      icon: "java",
+    },
   ],
   contact: {
-    email: "contact@example.com",
-    phone: "+1 (123) 456-7890",
-    location: "San Francisco, California"
+    email: "pgirisha77@gmail.com",
+    phone: "+191 8310362030",
+    location: "Bengaluru, Karnatka, India",
   },
   social: {
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
-    twitter: "https://twitter.com",
-    medium: "https://medium.com"
-  }
+    linkedin: "https://www.linkedin.com/in/girishap/",
+    github: "https://github.com/giri-shhh",
+    twitter: "https://x.com/Giri_shhh07",
+  },
 };

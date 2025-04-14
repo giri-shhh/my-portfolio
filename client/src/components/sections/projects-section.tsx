@@ -14,7 +14,7 @@ export function ProjectsSection() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true });
 
-  const filteredProjects = portfolioData.projects.filter(project => 
+  const filteredProjects = portfolioData.projects.filter(project =>
     filter === "All" || project.category === filter
   );
 
@@ -28,7 +28,7 @@ export function ProjectsSection() {
         </div>
 
         {/* Project Filters */}
-        <motion.div 
+        <motion.div
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={fadeIn}
@@ -54,7 +54,7 @@ export function ProjectsSection() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {filteredProjects.map((project, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               variants={staggerItems}
               className="glass-card overflow-hidden group"
@@ -69,8 +69,8 @@ export function ProjectsSection() {
                   <div className="p-4 w-full">
                     <div className="flex gap-2 justify-end">
                       {project.demoUrl && (
-                        <a 
-                          href={project.demoUrl} 
+                        <a
+                          href={project.demoUrl}
                           className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-800 hover:bg-primary-100 transition-colors"
                           target="_blank"
                           rel="noreferrer"
@@ -80,8 +80,8 @@ export function ProjectsSection() {
                         </a>
                       )}
                       {project.githubUrl && (
-                        <a 
-                          href={project.githubUrl} 
+                        <a
+                          href={project.githubUrl}
                           className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-800 hover:bg-primary-100 transition-colors"
                           target="_blank"
                           rel="noreferrer"
@@ -97,7 +97,7 @@ export function ProjectsSection() {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-3">
                   {project.technologies.map((tech, i) => (
-                    <span 
+                    <span
                       key={i}
                       className={`px-2 py-1 text-xs rounded bg-${tech.color}-100 dark:bg-${tech.color}-900/30 text-${tech.color}-700 dark:text-${tech.color}-300`}
                     >
@@ -107,8 +107,8 @@ export function ProjectsSection() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
-                <a 
-                  href={project.detailsUrl} 
+                <a
+                  href={project.detailsUrl}
                   className="text-primary hover:text-primary-600 flex items-center gap-1 text-sm font-medium"
                 >
                   View Details <ArrowRight className="h-4 w-4" />
@@ -117,13 +117,6 @@ export function ProjectsSection() {
             </motion.div>
           ))}
         </motion.div>
-
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            View All Projects
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
-        </div>
       </div>
     </section>
   );

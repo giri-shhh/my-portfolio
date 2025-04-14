@@ -132,18 +132,18 @@ export function ContactSection() {
                     <FormItem>
                       <FormLabel>Your Message</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          placeholder="Tell me about your project..." 
-                          className="min-h-[120px]" 
-                          {...field} 
+                        <Textarea
+                          placeholder="Tell me about your project..."
+                          className="min-h-[120px]"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full bg-gradient-to-r from-primary to-primary-600"
                   disabled={form.formState.isSubmitting}
                 >
@@ -153,7 +153,7 @@ export function ContactSection() {
             </Form>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             ref={ref}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
@@ -214,9 +214,6 @@ export function ContactSection() {
                 </a>
                 <a href={portfolioData.social.twitter} className="w-12 h-12 rounded-full flex items-center justify-center border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Twitter">
                   <FaTwitter className="text-xl text-blue-400" />
-                </a>
-                <a href={portfolioData.social.medium} className="w-12 h-12 rounded-full flex items-center justify-center border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Medium">
-                  <FaMedium className="text-xl text-gray-800 dark:text-white" />
                 </a>
               </div>
             </motion.div>

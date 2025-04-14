@@ -71,7 +71,7 @@ export function HeroSection() {
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-secondary rounded-lg opacity-20 animate-rotate-slow"></div>
               <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-accent rounded-full opacity-20 animate-pulse-slow"></div>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZmVzc2lvbmFsLG1hbGV8fHx8fHwxNzA5NzM1NTQ5&ixlib=rb-4.0.3&q=80&w=400"
+                src="assets/profile.jpg"
                 alt="Professional portrait"
                 className="rounded-full object-cover w-64 h-64 md:w-80 md:h-80 border-4 border-white dark:border-gray-800 shadow-xl"
               />
