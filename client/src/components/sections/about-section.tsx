@@ -77,7 +77,7 @@ export function AboutSection() {
                 Contact Me
               </Button>
               <Button variant="outline" asChild>
-                <a href="asset/Girisha_Prakash.pdf">
+                <a href="/assets/Girisha_Resume.pdf">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
                 </a>

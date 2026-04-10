@@ -117,7 +117,7 @@ export function Navbar() {
               Contact
             </a>
             <Button variant="default" asChild>
-              <a href="assets/Girisha_Prakash.pdf">Resume</a>
+              <a href="/assets/Girisha_Resume.pdf">Resume</a>
             </Button>
           </nav>
         </div>
@@ -182,7 +182,7 @@ export function Navbar() {
             Contact
           </a>
           <Button className="w-full" asChild>
-            <a href="assets/Girisha_Resume.pdf">Resume</a>
+            <a href="/assets/Girisha_Resume.pdf">Resume</a>
           </Button>
         </div>
       </div>
