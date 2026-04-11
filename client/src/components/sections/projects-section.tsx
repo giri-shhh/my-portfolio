@@ -109,6 +109,8 @@ export function ProjectsSection() {
                 <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
                 <a
                   href={project.detailsUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-primary hover:text-primary-600 flex items-center gap-1 text-sm font-medium"
                 >
                   View Details <ArrowRight className="h-4 w-4" />

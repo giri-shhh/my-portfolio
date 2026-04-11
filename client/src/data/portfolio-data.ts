@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Girisha P",
-  title: "Software Developer",
+  title: "Senior Full-Stack Developer",
   yearsOfExperience: 7,
   specializations: ["Java", "Spring Boot", "React"],
   aboutMe:
@@ -83,20 +83,20 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Spring Boot Microservices Starter",
+      title: "Auto Gen Stack",
       description:
-        "A drag and drop based starter kit for building microservices with Spring Boot, including pre-configured modules for authentication and messaging.",
+        "A drag and drop based starter application for generating full stack applications with Spring Boot and React. It allows users to select features, configure settings, and generate a ready-to-use codebase for their projects.",
       image:
-        "https://private-user-images.githubusercontent.com/17086380/433262018-fd8467ad-e8c5-4aeb-b673-8da2ff4f77e1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ2MTU2NjEsIm5iZiI6MTc0NDYxNTM2MSwicGF0aCI6Ii8xNzA4NjM4MC80MzMyNjIwMTgtZmQ4NDY3YWQtZThjNS00YWViLWI2NzMtOGRhMmZmNGY3N2UxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDE0VDA3MjI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4ZGMwOTliMjI2ZDZjMDFhMzY2Zjk4ZjA0ZGU3N2Y3OWI2ZjliMjQ1NmRkZmQyY2VmMjcwYzFhNGRkMzMxOTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QgfC9gNLQ7_No8UdymEAZ5PrxtIM_hGBODcT0QBcgHI",
+        "assets/autogenstack.png",
       category: "Frontend",
       technologies: [
         { name: "React", color: "purple" },
         { name: "Vite", color: "primary" },
         { name: "Tailwind", color: "yellow" },
       ],
-      demoUrl: "https://main.d2hd8x5vp5tt1m.amplifyapp.com",
-      githubUrl: "https://github.com/giri-shhh/SpringServiceStarter",
-      detailsUrl: "https://github.com/giri-shhh/SpringServiceStarter",
+      demoUrl: "https://www.autogenstack.com",
+      githubUrl: "https://github.com/giri-shhh/gen-stack",
+      detailsUrl: "https://github.com/giri-shhh/gen-stack",
     },
     {
       title: "Hotel Management System",
@@ -130,6 +130,15 @@ export const portfolioData = {
     },
   ],
   experience: [
+    {
+      role: "Senior Full-Stack Developer",
+      company: "Empower Retirement, LLC",
+      period: "2025 - present",
+      description:
+        "Development: Designed and developed micro-services with latest modern tools and framework with a focus on system design, high availability, high tolerance with security architecture. \n\nMentoring: Mentored junior developers on best practices, code reviews, and design patterns. \n\nCollaboration: Worked closely with cross-functional teams to gather requirements and deliver high-quality software solutions.",
+      color: "primary",
+      icon: "work",
+    },
     {
       role: "Senior Software Engineer",
       company: "Wissen Technology Ptv Ltd.",
